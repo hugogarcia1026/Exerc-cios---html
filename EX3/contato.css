@@ -1,0 +1,108 @@
+   * {
+    box-sizing: border-box; 
+    margin: 0;             
+    padding: 0;            
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; 
+    color: #2d3748;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 24px;         
+  }
+  
+  .form-contato {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 550px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    
+    padding: 40px;         
+    margin: 20px auto;     
+  }
+  
+  .form-contato h2 {
+    font-size: 28px;
+    color: #1a202c;
+    text-align: center;
+    margin-bottom: 8px;    
+  }
+  
+  .form-contato .subtitulo {
+    font-size: 15px;
+    color: #718096;
+    text-align: center;
+    margin-bottom: 32px;   
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;   
+  }
+  
+  .campo label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 8px;    
+  }
+  
+  
+  .campo input,
+  .campo textarea {
+    width: 100%;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #2d3748;
+    background-color: #f8fafc;
+    transition: all 0.2s ease-in-out;
+    
+    padding: 12px 16px;    
+  }
+  
+  .campo textarea {
+    min-height: 120px;
+    resize: vertical;      
+    margin-bottom: 4px;    
+  } 
+  
+  .campo input:focus,
+  .campo textarea:focus {
+    border-color: #3182ce;
+    background-color: #ffffff;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.15);
+  }
+  
+  .btn-enviar {
+    width: 100%;
+    background-color: #3182ce;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    
+    padding: 14px;         
+    margin-top: 10px;      
+  }
+  
+  .btn-enviar:hover {
+    background-color: #2b6cb0;
+  }
+  
+  #email {
+    box-sizing: content-box; 
+    width: 100%;             
+  }
+  
+  
