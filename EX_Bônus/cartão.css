@@ -1,0 +1,81 @@
+
+
+* {
+    /* TODO: box-sizing, zerar margin e padding */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #e8e8e8;
+    /* Adicionado apenas para desencostar o cartão do topo da tela */
+    padding-top: 50px; 
+  }
+  
+  /* === O CARTÃO === */
+  .cartao {
+    /* TODO:
+       - largura fixa (ex: 320px)
+       - margin auto para centralizar
+       - padding interno generoso
+       - border estilizada (sólida, tracejada ou dupla — escolha!)
+       - background e cor de texto
+    */
+    width: 320px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 4px double #2c3e50;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .cartao:hover {
+    /* TODO: mude algo do Box Model no hover
+       (border mais grossa, padding diferente, etc.) */
+    border-color: #3498db;
+    /* Uma transição suave opcional, se quiser um efeito visual mais bonito: */
+    transition: border-color 0.3s ease; 
+  }
+  
+  /* === NOME === */
+  .nome {
+    /* TODO: margin-bottom pequeno */
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  /* === CARGO === */
+  .cargo {
+    /* TODO: margin-bottom maior, cor mais clara */
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* === SEPARADOR === */
+  .separador {
+    /* TODO: margin vertical, border (lembre que <hr> usa border) */
+    margin: 15px 0;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  /* === LISTA DE CONTATOS === */
+  .contatos {
+    list-style: none;
+  }
+  
+  .contatos li {
+    /* TODO: margin-bottom entre cada contato, padding se quiser */
+    font-size: 14px;
+    padding: 4px 0;
+    margin-bottom: 8px;
+  }
+  
+  /* Remove a margem do último item para evitar espaço extra desnecessário no fundo */
+  .contatos li:last-child {
+    margin-bottom: 0;
+  }
